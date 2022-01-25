@@ -14,6 +14,7 @@ setuptools.setup(
         'odoo12-addon-purchase_stock_picking_restrict_cancel',
         'odoo12-addon-sale_order_global_stock_route',
         'odoo12-addon-stock_change_price_at_date',
+        'odoo12-addon-stock_delivery_note',
         'odoo12-addon-stock_dropshipping_whole_supplier',
         'odoo12-addon-stock_landed_costs_currency',
         'odoo12-addon-stock_lot_scrap',
@@ -24,6 +25,7 @@ setuptools.setup(
         'odoo12-addon-stock_picking_auto_create_lot',
         'odoo12-addon-stock_picking_back2draft',
         'odoo12-addon-stock_picking_backorder_strategy',
+        'odoo12-addon-stock_picking_batch_back2draft',
         'odoo12-addon-stock_picking_batch_extended',
         'odoo12-addon-stock_picking_batch_extended_account',
         'odoo12-addon-stock_picking_customer_ref',
@@ -42,6 +44,7 @@ setuptools.setup(
         'odoo12-addon-stock_picking_purchase_propagate',
         'odoo12-addon-stock_picking_quick',
         'odoo12-addon-stock_picking_restrict_cancel_with_orig_move',
+        'odoo12-addon-stock_picking_return_lot',
         'odoo12-addon-stock_picking_return_restricted_qty',
         'odoo12-addon-stock_picking_sale_order_link',
         'odoo12-addon-stock_picking_send_by_mail',
@@ -55,5 +58,6 @@ setuptools.setup(
     classifiers=[
         'Programming Language :: Python',
         'Framework :: Odoo',
+        'Framework :: Odoo :: 12.0',
     ]
 )
