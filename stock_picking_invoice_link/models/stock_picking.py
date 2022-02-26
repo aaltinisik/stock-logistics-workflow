@@ -16,6 +16,13 @@ class StockPicking(models.Model):
         string='Invoices',
         readonly=True,
     )
+    invoice_count = fields.Integer('Invoices', compute="_compute_invoice_ids")
+
+    def _compute_invoice_ids(self):
+        for picking in self:
+            invoices = picking.move_lines.mapped('invoice_line_ids').mapped('invoice_id')
+            picking.invoice_ids = [(6, 0, invoices.ids)]
+            picking.invoice_count = len(invoices.filtered(lambda x:x.state != 'cancel'))
 
     @api.multi
     def action_view_invoice(self):

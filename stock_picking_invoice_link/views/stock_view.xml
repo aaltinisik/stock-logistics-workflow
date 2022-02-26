@@ -14,9 +14,7 @@
                     class="oe_stat_button"
                     icon="fa-pencil-square-o"
                     attrs="{'invisible': [('invoice_ids', '=', [])]}" groups="base.group_user">
-                    <div class="o_form_field o_stat_info">
-                        <span class="o_stat_text">Invoices</span>
-                    </div>
+                        <field name="invoice_count" widget="statinfo" string="Fatura"/>
                 </button>
             </div>
         </field>
