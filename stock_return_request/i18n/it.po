@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-10-05 19:34+0000\n"
+"PO-Revision-Date: 2023-01-18 12:00+0000\n"
 "Last-Translator: Francesco Foresti <francesco.foresti@ooops404.com>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. module: stock_return_request
 #: code:addons/stock_return_request/models/stock_return_request.py:527
@@ -74,7 +74,7 @@ msgstr "Attività"
 #. module: stock_return_request
 #: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_state
 msgid "Activity State"
-msgstr "Stato Attività"
+msgstr "Stato attività"
 
 #. module: stock_return_request
 #: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
@@ -186,12 +186,12 @@ msgstr "Se selezionato, nuovi messaggi richiedono attenzione."
 #. module: stock_return_request
 #: model:ir.model.fields,help:stock_return_request.field_stock_return_request__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Se selezionato, nuovi messaggi richiedono attenzione."
+msgstr "Se selezionata, nuovi messaggi richiedono attenzione."
 
 #. module: stock_return_request
 #: model:ir.model.fields,help:stock_return_request.field_stock_return_request__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Se selezionato, alcuni messaggi presentano un errore di consegna."
+msgstr "Se selezionata, alcuni messaggi hanno un errore di consegna."
 
 #. module: stock_return_request
 #: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_is_follower
@@ -404,7 +404,7 @@ msgstr "Riga Richiesta"
 #. module: stock_return_request
 #: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_user_id
 msgid "Responsible User"
-msgstr "Utente Responsabile"
+msgstr "Utente responsabile"
 
 #. module: stock_return_request
 #: model:ir.model.fields,help:stock_return_request.field_stock_return_request__picking_types
@@ -525,10 +525,10 @@ msgid "Status based on activities\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Stato basato sulle attività\n"
-"In ritardo: la data è passata\n"
-"Oggi: la data dell'attività è oggi\n"
-"Pianificato: Attività future."
+"Stati in base alle attività\n"
+"Scaduti: la data richiesta è trascorsa\n"
+"Oggi: la data attività è oggi\n"
+"Pianificate: attività future."
 
 #. module: stock_return_request
 #: model:ir.model,name:stock_return_request.model_stock_move
@@ -630,12 +630,12 @@ msgstr "Tracciamento"
 #. module: stock_return_request
 #: model:ir.model,name:stock_return_request.model_stock_picking
 msgid "Transfer"
-msgstr "Trasferisci"
+msgstr "Trasferimento"
 
 #. module: stock_return_request
 #: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__product_uom_id
 msgid "Unit of Measure"
-msgstr "Unità di Misura"
+msgstr "Unità di misura"
 
 #. module: stock_return_request
 #: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_unread

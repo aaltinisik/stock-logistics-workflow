@@ -4,15 +4,15 @@
 
 {
     'name': 'Stock Picking Package Preparation',
-    'version': '12.0.1.0.1',
+    'version': '12.0.1.0.3',
     'author': 'Camptocamp, Agile Business Group, '
               'Odoo Community Association (OCA)',
     'maintainer': 'Camptocamp',
     'license': 'AGPL-3',
     'category': 'Warehouse Management',
     'depends': ['stock'],
-    'website': 'https://github.com/OCA/stock-logistics-workflow/tree/'
-               '12.0/stock_picking_package_preparation',
+    'website': 'https://github.com/OCA/stock-logistics-workflow'
+               '/tree/12.0/stock_picking_package_preparation',
     'data': [
         'security/ir.model.access.csv',
         'security/package_preparation_security.xml',
