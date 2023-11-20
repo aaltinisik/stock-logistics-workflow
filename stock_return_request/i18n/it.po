@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* stock_return_request
+# 	* stock_return_request
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-09-03 13:41+0000\n"
+"PO-Revision-Date: 2023-11-17 09:34+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -19,8 +19,10 @@ msgstr ""
 #. module: stock_return_request
 #: code:addons/stock_return_request/models/stock_return_request.py:527
 #, python-format
-msgid "\n"
-"                You cannot have two open Stock Return Requests with the same\n"
+msgid ""
+"\n"
+"                You cannot have two open Stock Return Requests with the "
+"same\n"
 "                product (%s), locations (%s, %s) partner (%s) and lot.\n"
 "\n"
 "                Please first validate the first return request with this\n"
@@ -200,7 +202,8 @@ msgstr "Segue"
 #. module: stock_return_request
 #: code:addons/stock_return_request/models/stock_return_request.py:306
 #, python-format
-msgid "It wasn't possible to assign stock for this returns:\n"
+msgid ""
+"It wasn't possible to assign stock for this returns:\n"
 "%s"
 msgstr ""
 "Non è stato possibile reperire stock per questi Resi:\n"
@@ -230,7 +233,7 @@ msgstr "Ultimo aggiornamento il"
 #. module: stock_return_request
 #: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__lot_id
 msgid "Lot / Serial"
-msgstr "Lotto / Seriale"
+msgstr "Lotto / seriale"
 
 #. module: stock_return_request
 #: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot__lot_suggestion_mode
@@ -240,7 +243,7 @@ msgstr "Modalità di suggerimento Lotto"
 #. module: stock_return_request
 #: model_terms:ir.ui.view,arch_db:stock_return_request.stock_move_lines_to_return
 msgid "Lot/Serial Number"
-msgstr "Numero Seriale/Lotto"
+msgstr "Lotto/numero di serie"
 
 #. module: stock_return_request
 #: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_main_attachment_id
@@ -293,8 +296,10 @@ msgstr "Tipo prossima attività"
 #. module: stock_return_request
 #: code:addons/stock_return_request/models/stock_return_request.py:507
 #, python-format
-msgid "Not enough moves to return this product.\n"
-"It wasn't possible to find enough moves to return %f %sof %s. A maximum of %f can be returned."
+msgid ""
+"Not enough moves to return this product.\n"
+"It wasn't possible to find enough moves to return %f %sof %s. A maximum of "
+"%f can be returned."
 msgstr ""
 "Non ci sono abbastanza picking per rendere questo prodotto.\n"
 "Non è stato possibile trovare picking sufficienti per rendere %f %s di %s. "
@@ -490,7 +495,7 @@ msgstr "Quantità restituibile"
 #. module: stock_return_request
 #: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__returned_picking_ids
 msgid "Returned Pickings"
-msgstr "Picking resi"
+msgstr "Prelievi resi"
 
 #. module: stock_return_request
 #: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
@@ -519,7 +524,8 @@ msgstr "Stato"
 
 #. module: stock_return_request
 #: model:ir.model.fields,help:stock_return_request.field_stock_return_request__activity_state
-msgid "Status based on activities\n"
+msgid ""
+"Status based on activities\n"
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
@@ -583,7 +589,8 @@ msgstr "Lotti suggeriti per questa riga Richiesta di Reso"
 
 #. module: stock_return_request
 #: model:ir.model.fields,help:stock_return_request.field_stock_return_request__return_type
-msgid "Supplier - Search for incoming moves from this supplier\n"
+msgid ""
+"Supplier - Search for incoming moves from this supplier\n"
 "Customer - Search for outgoing moves to this customer\n"
 "Internal - Search for outgoing moves to this location."
 msgstr ""
@@ -663,10 +670,12 @@ msgstr "Cronologia comunicazioni sito web"
 
 #. module: stock_return_request
 #: model:ir.model.fields,help:stock_return_request.field_stock_return_request__show_to_refund
-msgid "Whether to show it or not depending on the availability ofthe stock_account module (so a bridge module is not necessary)"
+msgid ""
+"Whether to show it or not depending on the availability ofthe stock_account "
+"module (so a bridge module is not necessary)"
 msgstr ""
-"Se mostrarlo o meno a seconda della disponibilità del modulo stock_account ("
-"così non è necessario un modulo ponte)"
+"Se mostrarlo o meno a seconda della disponibilità del modulo stock_account "
+"(così non è necessario un modulo ponte)"
 
 #. module: stock_return_request
 #: model:ir.model.fields,help:stock_return_request.field_suggest_return_request_lot__suggested_lot
